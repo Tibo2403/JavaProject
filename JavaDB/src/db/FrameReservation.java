@@ -188,7 +188,7 @@ public class FrameReservation extends JFrame implements ActionListener {
 								gbc_btnCancel.gridy = 6;
 								contentPane.add(btnCancel, gbc_btnCancel);
 	}
-
+	
 	public void actionPerformed(ActionEvent e) {
 		//System.out.println("on a cliqué");
 		if (e.getSource()== btnInsert){

@@ -168,15 +168,15 @@ public class FrameClient extends JFrame implements ActionListener {
 		gbc_textlangue.gridy = 5;
 		contentPane.add(textlangue, gbc_textlangue);
 								
-										btnInsert = new JButton("Ins\u00E9rer");
-										btnInsert.addActionListener(this);
-										GridBagConstraints gbc_btnInsert = new GridBagConstraints();
-										gbc_btnInsert.insets = new Insets(0, 0, 5, 5);
-										gbc_btnInsert.anchor = GridBagConstraints.SOUTH;
-										gbc_btnInsert.fill = GridBagConstraints.HORIZONTAL;
-										gbc_btnInsert.gridx = 2;
-										gbc_btnInsert.gridy = 6;
-										contentPane.add(btnInsert, gbc_btnInsert);
+								btnInsert = new JButton("Ins\u00E9rer");
+								btnInsert.addActionListener(this);
+								GridBagConstraints gbc_btnInsert = new GridBagConstraints();
+								gbc_btnInsert.insets = new Insets(0, 0, 5, 5);
+								gbc_btnInsert.anchor = GridBagConstraints.SOUTH;
+								gbc_btnInsert.fill = GridBagConstraints.HORIZONTAL;
+								gbc_btnInsert.gridx = 2;
+								gbc_btnInsert.gridy = 6;
+								contentPane.add(btnInsert, gbc_btnInsert);
 						
 								btnCancel = new JButton("Annuler");
 								btnCancel.addActionListener(this);
